@@ -7,10 +7,18 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codebymatthew/spiderAPI.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codebymatthew/spiderAPI/issues"
+  },
+  "homepage": "https://github.com/codebymatthew/spiderAPI#readme",
   "dependencies": {
-    "cors": "^2.8.5",
+    "cores": "^0.8.5",
     "express": "^4.18.1"
   }
 }
