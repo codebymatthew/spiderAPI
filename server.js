@@ -43,6 +43,9 @@ app.get('/api/:name', (request, response) => {
         response.json(coolSpiders['unknown'])
     }
 })
+app.get('/api', (request, response) => {
+    response.json(coolSpiders)
+})
 
 app.listen(process.env.PORT || PORT, () => {
     console.log(`The server is running on ${PORT}`)
