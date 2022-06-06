@@ -21,7 +21,7 @@ const coolSpiders = {
         'Family': 'Theridiidae',
         'Fun Fact': 'Has a cool red hourglass on its belly.'
     },
-    'hundsman': {
+    'huntsman': {
         'Venomous': 'yes',
         'Family': 'Sparassidae',
         'fun fact': 'Sometimes called a crab spider due to their size.'
