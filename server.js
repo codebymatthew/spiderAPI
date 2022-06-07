@@ -7,23 +7,23 @@ app.use(cors())
 
 const coolSpiders = {
     'jumping spider': {
-        'Venomous': 'no',
-        'Family': 'Salticidae',
-        'Fun Fact': 'Capable of jumping up to six inches!'
+        'venomous': 'no',
+        'family': 'Salticidae',
+        'fun fact': 'Capable of jumping up to six inches!'
     },
     'cellar spider': {
-        'Venomous': 'no',
-        'Family': 'Pholcidae',
-        'Fun Fact': 'Commonly thought to be venomous but their mouth isn\'t strong enough to pierce human skin.  Also not venomous.'
+        'venomous': 'no',
+        'family': 'Pholcidae',
+        'fun fact': 'Commonly thought to be venomous but their mouth isn\'t strong enough to pierce human skin.  Also not venomous.'
     },
     'black widow': {
-        'Venomous': 'yes',
-        'Family': 'Theridiidae',
-        'Fun Fact': 'Has a cool red hourglass on its belly.'
+        'venomous': 'yes',
+        'family': 'Theridiidae',
+        'fun fact': 'Has a cool red hourglass on its belly.'
     },
     'huntsman': {
-        'Venomous': 'yes',
-        'Family': 'Sparassidae',
+        'venomous': 'yes',
+        'family': 'Sparassidae',
         'fun fact': 'Sometimes called a crab spider due to their size.'
     },
     'unknown': {
